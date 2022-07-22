@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.css" integrity="sha512-Go0fX6Al6Eab+N7QbSFHYBpwdcU2rbfONUcbRIS4z+9yzLlj7Xj8ao2BAOPE9Qtxdl+7iq04xzzcF4OTOWoUWg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div id="fullPage">
+
+        <div class="section">
+            <div class="container landing">
+                <h1> <img class="logo" src="public/logo.png" alt="">HELLO WORLD</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus perferendis unde ea. Voluptas exercitationem nulla perferendis sint, nemo fugiat laborum ducimus nam praesentium esse facere delectus culpa soluta harum quis minus quisquam quos expedita reprehenderit minima a nihil omnis! Repudiandae odit eos eum harum, consectetur illum illo laborum nihil cum.</p>
+                <hr>
+
+                <a href="#" class="btn col-2">
+                    <img src="public/logo.png" class="btn-img" alt="">
+                    <br>
+                    <span>Projects</span>
+                </a>
+                <a href="#" class="btn col-2">
+                    <img src="public/logo.png" class="btn-img" alt="">
+                    <br>
+                    <span>Music</span>
+                </a>
+                <a href="#" class="btn col-2">
+                    <img src="public/logo.png" class="btn-img" alt="">
+                    <br>
+                    <span>Game Studio (no name)</span>
+                </a>
+                <a href="#" class="btn col-2">
+                    <img src="public/logo.png" class="btn-img" alt="">
+                    <br>
+                    <span>Contact</span>
+                </a>
+                <a href="#" class="btn col-2">
+                    <img src="public/logo.png" class="btn-img" alt="">
+                    <br>
+                    <span>Credits</span>
+                </a>
+
+            </div>
+        </div>
+        <div class="section">
+            <h1>projects</h1>
+        </div>
+        <div class="section">
+            <h1>music projects</h1>
+        </div>
+        <div class="section">
+            <h1>studio</h1>
+        </div>
+        <div class="section">
+            <h1>contact</h1>
+        </div>
+        <div class="section">
+            <h1>credits</h1>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.js" integrity="sha512-JSVRnP8UFs0ieN/cvP9v4vmW1CotIaEKKN7W+4JaKNrllZolTv2aJfVGn4BFdfZ1jRZxgTAAaXWdlZbEm9iwFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script>
+
+        new fullpage('#fullPage', {
+            autoScrolling: true,
+            navigation: true,
+            anchors: ['home', 'projects', 'music', 'studio', 'contact', 'credits'],
+            navigationTooltips: ["Home", "Projects", "Music", "Game Studio", "Contact", "Credits"], // i think the name explains it 
+            showActiveTooltip: true,
+            sectionsColor: ['#c7c9f5', '#c7c9f5', '#c7c9f5', '#c7c9f5', '#c7c9f5', '#000'],
+            licenseKey: '',
+        })
+
+    </script>
+</body>
+</html>
